@@ -12,17 +12,17 @@ header {
     color: #ffffff;
     
 }
-
+/* STYLING FOR BRAND TITLE*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* SECONDARY STYLING FOR BRAND TITLE*/
 .seo {
     color: #d9dcd6;
 }
-
-section {
+/*STYLING FOR MENU*/
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -190,13 +190,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
