@@ -153,3 +153,55 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/*STYLING FOR WHOLE PAGE WHEN SCREEN SIZE IS SHRUNK*/
+@media screen and (max-width: 1060px) {
+header{
+    height: 200px;
+}   
+li {
+    margin-left: 0px;
+}
+nav {
+    float: left;
+}
+h1 {
+    display: block;
+}
+.content {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    align-content: center;
+    float: none;
+}
+.section-class {
+    display: block;
+    float: none;
+    height: auto;
+    align-content: center;
+}
+.section-class img {
+    display:block;
+    float: none;
+    
+}
+.benefits {
+     display: block;
+     width: 100%;
+     margin-right: 0px;
+     margin-bottom: 10px;
+     float: none;
+     
+}
+.float-left {
+    float: none;
+    margin-right: 0px;
+}
+.float-right {
+    float: none;
+    margin-left: 0px;
+}
+
+}
+
+
