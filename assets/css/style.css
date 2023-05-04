@@ -1,0 +1,158 @@
+/*DEFAULTS*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*STYLING FOR HEADER*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* STYLING FOR BRAND TITLE*/
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* SECONDARY STYLING FOR BRAND TITLE*/
+.seo {
+    color: #d9dcd6;
+}
+
+/*STYLING FOR MENU*/
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*REMOVE BULLET POINTS FROM LISTS*/
+ul {
+    list-style-type: none;
+}
+
+/*LIST WILL FLOW LEFT TO RIGHT CONTAINED IN A BLOCK*/
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*ANCHOR COLOR FOR LIST ITEMS*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*BACKGROUND COLOR FOR BODY*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*BACKGROUND IMAGE SIZING*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*SIZE OF MAIN CONTENT CONTAINER*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*SIZE AND TEXT STYLING FOR MAIN CONTENT*/
+.section-class {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*HEIGHT OF MAIN CONTENT IMAGES*/
+.section-class img {
+    max-height: 200px;
+}
+
+/*STYLING FOR MAIN CONTENT H2*/
+.section-class h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*STYLING FOR PARAGRAPHS*/
+p {
+    font-size: 16px;
+}
+
+/*POSITIONING FOR MAIN CONTENT BLOCKS*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*POSITIONING FOR MAIN CONTENT BLOCKS*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*SIZE POSITIONING AND STYLING FOR ASIDE CONTENT*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*POSITIONING AND TEXT COLOR FOR ASIDE CONTENT*/
+.benefit-main {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*ALIGNMENT FOR ASIDE CONTENT*/
+.benefit-main h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*SIZE AND DISPLAY FOR ASIDE IMAGES*/
+.benefit-main img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*FOOTER STYLING*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*FOOTER TEXT SIZE*/
+footer h2 {
+    font-size: 20px;
+}
+
+
+

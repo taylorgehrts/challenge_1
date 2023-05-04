@@ -12,7 +12,7 @@
 
 ## Installation
 follow this link to checkout the finished page
-[www.git.io](https://www.git.io)
+[https://taylorgehrts.github.io/challenge_1/](https://taylorgehrts.github.io/challenge_1/)
 
 ## Usage
 
